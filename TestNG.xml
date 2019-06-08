@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Framework">
+
+      <listeners>
+           <listener class-name="com.framework.Utilities.Reporting"/>
+      </listeners>
+       
+       <test name="Login Test">
+            <parameter name="browser" value="chrome" />
+            <classes>
+            <class name="com.framework.TestCases.LoginTest" />
+            <!-- class name="com.framework.TestCases.LoginTest_DDT" />-->
+            </classes>
+       </test>
+</suite>
